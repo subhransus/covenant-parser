@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File with Arguments",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "./extract_data.py",
+            "console": "integratedTerminal",
+            "args": [
+                "./test/input.txt"
+            ]
+        }
+    ]
+}
